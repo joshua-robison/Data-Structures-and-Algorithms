@@ -2,6 +2,7 @@
 function LinkedList() {
   this.head = null;
   this.tail = null;
+  this.length = 0;
 }
 
 // a node in the linked list
@@ -20,6 +21,7 @@ LinkedList.prototype.addToHead = function(data) {
     this.tail = node;
   }
   this.head = node;
+  this.length++;
 };
 
 // add new node to tail of linked list
@@ -31,6 +33,7 @@ LinkedList.prototype.addToTail = function(data) {
     this.head = node;
   }
   this.tail = node;
+  this.length++;
 };
 
 // remove head from linked list
@@ -45,6 +48,7 @@ LinkedList.prototype.removeHead = function() {
   } else {
     this.tail = null;
   }
+  this.length--;
   return data;
 };
 
@@ -60,6 +64,7 @@ LinkedList.prototype.removeTail = function() {
   } else {
     this.head = null;
   }
+  this.length--;
   return data;
 };
 
