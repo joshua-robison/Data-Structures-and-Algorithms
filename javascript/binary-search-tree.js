@@ -77,7 +77,7 @@ BinarySearchTree.prototype.bfs = function(iterator = log) {
       queue.push(node.right);
     }
   }
-}
+};
 
 // minimum value from bst
 BinarySearchTree.prototype.minimum = function() {
@@ -86,7 +86,7 @@ BinarySearchTree.prototype.minimum = function() {
   } else {
     return this.data;
   }
-}
+};
 
 // maximum value from bst
 BinarySearchTree.prototype.maximum = function() {
@@ -95,7 +95,7 @@ BinarySearchTree.prototype.maximum = function() {
   } else {
     return this.data;
   }
-}
+};
 
 // iterator function
 function log(data) {
