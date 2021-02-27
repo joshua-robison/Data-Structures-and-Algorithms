@@ -44,3 +44,60 @@ BinarySearchTree.prototype.contains = function(data) {
     return false;
   }
 };
+
+// depth first search: pre-order, in-order, post-order
+BinarySearchTree.prototype.dfs = function(order = "in-order", iterator = log) {
+  if (order === "pre-order") {
+    iterator(this.data);
+  }
+  if (this.left) {
+    this.left.dfs(order, iterator);
+  }
+  if (order === "in-order") {
+    iterator(this.data);
+  }
+  if (this.right) {
+    this.right.dfs(order, iterator);
+  }
+  if (order === "post-order") {
+    iterator(this.data);
+  }
+};
+
+// breadth first search
+BinarySearchTree.prototype.bfs = function(iterator = log) {
+  var queue = [this];
+  while (queue.length) {
+    var node = queue.shift();
+    iterator(node.data);
+    if (node.left) {
+      queue.push(node.left);
+    }
+    if (node.right) {
+      queue.push(node.right);
+    }
+  }
+}
+
+// minimum value from bst
+BinarySearchTree.prototype.minimum = function() {
+  if (this.left) {
+    return this.left.minimum();
+  } else {
+    return this.data;
+  }
+}
+
+// maximum value from bst
+BinarySearchTree.prototype.maximum = function() {
+  if (this.right) {
+    return this.right.maximum();
+  } else {
+    return this.data;
+  }
+}
+
+// iterator function
+function log(data) {
+  console.log(data);
+}
