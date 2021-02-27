@@ -1,2 +1,1 @@
-# DataStructures
- basic data structure implementations
+# Data Structures and Algorithms
