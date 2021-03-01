@@ -68,5 +68,6 @@ function mode(array) {
 // test functions
 var array = new Array(1, 2, 3, 4, 5, 5, 6, 7);
 console.log(meanMedianMode(array));
+
 var array = new Array();
 console.log(meanMedianMode(array));
