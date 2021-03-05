@@ -5,7 +5,7 @@ function LinkedList() {
   this.length = 0;
 }
 
-// a node in the linked list
+// node in the linked list
 function Node(data, next, prev) {
   this.data = data;
   this.next = next;
