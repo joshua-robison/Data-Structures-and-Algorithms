@@ -17,4 +17,8 @@ This repository contains examples of data structures and algorithms.
 - [Mean Median Mode](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/mean-median-mode.js)
 - [Merge Sort](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/merge-sort.js)
 - [Palindrome](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/palindrome.js)
-
+- [Ransom Note](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/ransom-note.js)
+- [Reverse Array](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/reverse-array.js)
+- [Reverse Words](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/reverse-words.js)
+- [Sieve of Eratosthenes](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/sieve-eratosthenes.js)
+- [Two Sum](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/two-sum.js)
