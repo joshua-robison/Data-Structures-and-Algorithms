@@ -10,7 +10,7 @@ This repository contains examples of data structures and algorithms.
 ## Algorithms
 - [Binary Search](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/binary-search.js)
 - [Bubble Sort](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/bubble-sort.js)
-- [Caesar-Cipher]((https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/caesar-cipher.js)
+- [Caesar-Cipher](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/caesar-cipher.js)
 - [Fibonacci](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/fibonacci.js)
 - [Fizz Buzz](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/fizz-buzz.js)
 - [Max Stock Profit](https://github.com/joshua-robison/Data-Structures-and-Algorithms/tree/main/src/algorithms/max-stock-profit.js)
