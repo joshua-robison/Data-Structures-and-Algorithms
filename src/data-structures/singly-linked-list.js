@@ -1,5 +1,5 @@
-// Data Structures in JavaScript: Linked List
-function LinkedList() {
+// Data Structures in JavaScript: Singly Linked List
+function SinglyLinkedList() {
   this.head = null;
   this.tail = null;
   this.length = 0;
@@ -13,7 +13,7 @@ function Node(data, next, prev) {
 }
 
 // add new node to head of linked list
-LinkedList.prototype.addToHead = function(data) {
+SinglyLinkedList.prototype.addToHead = function(data) {
   let node = new Node(data, this.head, null);
   if (this.head) {
     this.head.prev = node;
@@ -25,7 +25,7 @@ LinkedList.prototype.addToHead = function(data) {
 };
 
 // add new node to tail of linked list
-LinkedList.prototype.addToTail = function(data) {
+SinglyLinkedList.prototype.addToTail = function(data) {
   let node = new Node(data, null, this.tail);
   if (this.tail) {
     this.tail.next = node;
@@ -37,7 +37,7 @@ LinkedList.prototype.addToTail = function(data) {
 };
 
 // remove head from linked list
-LinkedList.prototype.removeHead = function() {
+SinglyLinkedList.prototype.removeHead = function() {
   if (!this.head) {
     return null;
   }
@@ -53,7 +53,7 @@ LinkedList.prototype.removeHead = function() {
 };
 
 // remove tail from linked list
-LinkedList.prototype.removeTail = function() {
+SinglyLinkedList.prototype.removeTail = function() {
   if (!this.tail) {
     return null;
   }
@@ -69,7 +69,7 @@ LinkedList.prototype.removeTail = function() {
 };
 
 // search linked list for data
-LinkedList.prototype.search = function(data) {
+SinglyLinkedList.prototype.search = function(data) {
   var node = this.head;
   while (node) {
     if (node.data == data) {
@@ -82,7 +82,7 @@ LinkedList.prototype.search = function(data) {
 };
 
 // get indices of linked list data
-LinkedList.prototype.indexOf = function(data) {
+SinglyLinkedList.prototype.indexOf = function(data) {
   var indices = new Array();
   var index = 0;
   var node = this.head;
