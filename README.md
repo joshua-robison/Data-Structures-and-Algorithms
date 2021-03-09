@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-This repository contains examples of data structures and algorithms.
+This repository contains examples of data structures and algorithms implemented in JavaScript.
 
 ## Data Structures
 - [Singly Linked List](https://github.com/joshua-robison/Data-Structures-and-Algorithms/blob/main/src/data-structures/singly-linked-list.js)
